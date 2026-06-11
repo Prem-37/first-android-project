@@ -6,6 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.myapplication.prem.C13_Navigation_Bar.NavBarHomeScreen
 import com.example.myapplication.prem.C13_Navigation_Bar.NavBarNavigation
+import com.example.myapplication.prem.SnackBarExample
+import com.example.myapplication.prem.ToastExample
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -14,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
-                NavBarNavigation()
+                SnackBarExample()
             }
         }
     }
