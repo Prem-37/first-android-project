@@ -16,7 +16,7 @@ import androidx.navigation.NavHostController
 
 @Composable
 fun NavBarSearchScreen(navController: NavHostController) {
-    Scaffold(bottomBar = { MyNavBar(navController) }) { innerPadding ->
+    Scaffold(bottomBar = { MyNavBar(navController,"Search") }) { innerPadding ->
         Column(
             modifier = Modifier
                 .fillMaxSize()

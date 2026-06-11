@@ -16,7 +16,7 @@ import androidx.navigation.NavHostController
 
 @Composable
 fun NavBarNotificationScreen(navController: NavHostController) {
-    Scaffold(bottomBar = { MyNavBar(navController) }) { innerPadding ->
+    Scaffold(bottomBar = { MyNavBar(navController, "Notifications") }) { innerPadding ->
         Column(
             modifier = Modifier
                 .fillMaxSize()

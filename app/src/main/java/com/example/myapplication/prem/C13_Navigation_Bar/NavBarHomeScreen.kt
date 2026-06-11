@@ -17,7 +17,7 @@ import androidx.navigation.NavHostController
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
 fun NavBarHomeScreen(navController: NavHostController) {
-    Scaffold(bottomBar = { MyNavBar(navController) }) { innerPadding ->
+    Scaffold(bottomBar = { MyNavBar(navController, "Home")}) { innerPadding ->
         Column(
             modifier = Modifier
                 .fillMaxSize()

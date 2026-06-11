@@ -16,7 +16,7 @@ import androidx.navigation.NavHostController
 
 @Composable
 fun NavBarProfileScreen(navController: NavHostController) {
-    Scaffold(bottomBar = { MyNavBar(navController) }) { innerPadding ->
+    Scaffold(bottomBar = { MyNavBar(navController, "Profile") }) { innerPadding ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
